@@ -1,0 +1,10 @@
+>library(psych)
+>describe(iris)
+>summary(iris)
+>summary(iris$Petal.length)
+>hist(iris$Petal.length)
+>cor.test(iris$Petal.Length, iris$Petal.Width)
+>cor.test(iris$Petal.Length, iris$Sepal.Length)
+>t.test(iris$Petal.Length[iris$Species == "setosa"],conf.level=0.95)
+>write.csv(iris,file="iris.csv")
+
